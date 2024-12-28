@@ -1,7 +1,7 @@
 {
   "name": "photographer",
   "version": "0.1.0",
-  "homepage": "https://rftdfedr.github.io/photo-site",
+  "homepage": "https://rftdfedr.github.io/photo-site/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
