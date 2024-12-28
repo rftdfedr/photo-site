@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+.container {
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
+.menu {
+  background-color: rgb(241, 241, 241);
+}
+.menu-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.site-name {
+  font-size: 25px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0 auto;
+}
+.date,
+.button_search {
+  background-color: white;
+  height: 30px;
+  border: 1px solid rgb(231, 231, 231);
+  outline: none;
+  padding: 0 10px;
+}
+.date{
+  margin-right: 10px;
+}
+.basket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.basket-img {
+  width: 30px;
+}
+.basket-text {
+  font-size: 15px;
+  
+}
+
+.folder {
+  width: 200px;
+  margin: 30px 20px;
+  display: inline-block;
+  text-align: center;
+}
+.folder-image {
+  width: 100%;
+}
+
+.in-basket {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.basket-list{
+  background-color: rgb(241, 241, 241);
+  width: 68%;
+  height: 80vh;
+  border-radius: 30px 10px 10px 30px;
+  padding: 20px 0 20px 20px;
+}
+.basket-total {
+  background-color:   rgb(241, 241, 241);
+  width: 28%;
+  height: 80vh;
+  border-radius: 10px 30px 30px 10px;
+  padding: 20px
+}
+.basket-photo {
+  background-color: white;
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 14px 10px 0;
+}
+.basket-in-img {
+  max-width: 160px;
+  max-height: 90px;
+}
+.bin-icon {
+  width: 20px;
+}
+.buy-button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid rgb(231, 231, 231);
+}
+.in-folder-arrow {
+  width: 35px;
+  height: 35px;
+}
+.in-folder-date-text {
+font-size: 20px;
+}
+.in-folder-date {
+display: flex;
+align-items: center;
+}
+
+.basket-in-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.basket-count{
+  position: absolute;
+  bottom:  20px;
+  left: 35px;
+  color: rgb(241, 241, 241);
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 0 3px;
+}
+
+.storage {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+}
+
+.photo img {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.new-image-price {
+  font-size: 18px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+  padding: 0 5px;
+  user-select: none;
+}
+.new-image-price:hover{
+  background-color: rgba(255, 255, 255, 0.541);
+  color: black;
+}
+
+
+
+
+
+.new-image-img {
+  width: 100%;
+  display: block;
+}
+.new-image-photo {
+  position: relative;
+}
+.new-image-basket {
+  width: 20px;
+}
+
+@media (max-width: 500px) {
+
+}
